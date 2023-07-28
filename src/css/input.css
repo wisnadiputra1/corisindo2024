@@ -6,3 +6,12 @@
     font-family: "Monument";
     src: url("../font/MonumentExtended-Regular.otf");
 };
+
+@layer components{
+    .accordion-header{
+        @apply py-1 cursor-pointer
+    }
+    .accordion-body{
+        @apply max-h-0 overflow-hidden transition-all duration-200 ease-out
+    }
+}
