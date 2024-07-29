@@ -36,7 +36,7 @@
                 </ul>    
             </div>
             <div class="flex flex-1 justify-end">
-                <button class="font-jakarta  text-[16px] tracking-[0.5px] border-2 rounded-[30px] py-1 px-8 hover:bg-bg-100 hover:text-text-primary" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="linear">Sign in <i class="fa-solid fa-arrow-right text-base"></i></button>
+                <button class="font-jakarta  text-[16px] tracking-[0.5px] border-2 rounded-[30px] py-1 px-8 hover:bg-bg-100 hover:text-text-primary" id="signIn" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="linear">Sign in <i class="fa-solid fa-arrow-right text-base"></i></button>
                 <button class="lg:hidden ms-3 focus:outline-none group">
                     <i class="fa-solid fa-bars-staggered text-xl"></i>
                     <div class="fixed -top-full h-screen w-8/12 right-0 bg-text-primary border opacity-0 group-focus:top-0 group-focus:opacity-100 transition-all duration-300 z-50">
@@ -71,7 +71,7 @@
                     <h1 class="mt-5 font-monument font-bold text-[28px] md:text-[32px] lg:text-[55px] uppercase tracking-[1px] leading-[38px] md:leading-[42px] lg:leading-[65px] text-text-primary">Discover <span class="text-accent-100">The Best</span> Traveling Plan</h1>
                     <p class="my-4 lg:my-9 font-jakarta text-text-secondary text-[16px] md:text-[18px] tracking-[0.5px] leading-[26px] md:leading-[28px]">Ready for the trip of a lifetime? Let our AI chatbot work its magic and generate your perfect getaway!</p>
                     <div class="my-7 lg:my-9">
-                        <a href="" class=" bg-primary-100 rounded-[30px] py-2 lg:py-3 px-6 lg:px-8 font-jakarta font-bold italic text-text-primary text-[20px] lg:text-[24px] tracking-[1px]"> Start Now <i class="fa-solid fa-arrow-right "></i></a>
+                        <a href="login.html" class=" bg-primary-100 rounded-[30px] py-2 lg:py-3 px-6 lg:px-8 font-jakarta font-bold italic text-text-primary text-[20px] lg:text-[24px] tracking-[1px]"> Start Now <i class="fa-solid fa-arrow-right "></i></a>
                     </div>
                 </div>
                 <div class="hidden md:flex md:justify-self-end " data-aos="fade-left" data-aos-duration="2000" data-aos-easing="linear">
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="pt-20 border-b-2 border-text-primary" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">
-                <p class="font-jakarta italic text-text-primary text-[13px] lg:text-base" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">2023</p>
+                <p class="font-jakarta italic text-text-primary text-[13px] lg:text-base" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">2024</p>
             </div>
         </div>
     </section>
@@ -105,7 +105,7 @@
     <!-- About end -->
 
     <!-- Services -->
-    <section class="bg-bg-100 pt-20">
+    <section class="bg-bg-100 pt-20" id="services">
         <div class="container mx-auto max-w-7xl px-4 lg:px-0">
             <div class="grid grid-cols-1 md:grid-cols-2 md:gap-x-10 lg:gap-x-0">
                 <div class="row-start-2 md:row-start-auto">
@@ -132,7 +132,7 @@
     <!-- Services end -->
 
     <!-- How it works -->
-    <section class="bg-bg-100 pt-20">
+    <section class="bg-bg-100 pt-20" id="howitworks">
         <div class="container mx-auto max-w-7xl px-4 lg:px-0">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 lg:gap-x-0">
                 <div class="">
@@ -184,7 +184,7 @@
     <!-- How it works end -->
 
     <!-- FAQ -->
-    <section class="bg-bg-100 pt-20 pb-36">
+    <section class="bg-bg-100 pt-20 pb-36" id="faq">
         <div class="container mx-auto max-w-7xl px-4 lg:px-0">
             <h1 class=" font-monument font-bold text-[28px] md:text-[32px] lg:text-[55px] uppercase tracking-[1px] leading-[38px] md:leading-[42px] lg:leading-[65px] text-text-primary" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="linear">Frequently Asked Questions</h1>
             <div class="grid md:grid-cols-2 gap-4 lg:gap-12">
@@ -251,12 +251,13 @@
         <div class="pt-20 border-b-2 border-[#000]">
         </div>
         <div class="py-7 text-center" >
-            <p class="font-jakarta italic font-2xl">© Wander Inc., 2023. All rights reserved.</p>
+            <p class="font-jakarta italic font-2xl">© Wander Inc., 2024. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="./src/js/accordion.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./src/js/index.js"></script>
     <script>
         AOS.init();
     </script>
